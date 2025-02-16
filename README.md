@@ -8,6 +8,10 @@ Dieses Spiel testet deine Präzision mit der Maus. Klicke auf sich bewegende ode
 
 ![Landing Page](images/landing-page.png)
 
+## Game
+
+![Game](images/game.png)
+
 ## Features
 
 - Anpassbare Zielgröße
