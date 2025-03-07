@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <title>Mouse Accuracy Game</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <div class="timer removed">0</div>
+    <div class="settings">
+      <h1>Mouse Accuracy Game</h1>
+      
+      <div class="settings-grid">
+        <div class="setting-group">
+          <h3>Target Size</h3>
+          <div class="options">
+            <input class="removed" type="radio" id="target-small" name="size" value="50">
+            <label for="target-small">Small</label>
+            
+            <input class="removed" type="radio" id="target-medium" name="size" value="60" checked>
+            <label for="target-medium">Medium</label>
+            
+            <input class="removed" type="radio" id="target-large" name="size" value="70">
+            <label for="target-large">Large</label>
+          </div>
+        </div>
+
+        <div class="setting-group">
+          <h3>Difficulty</h3>
+          <div class="options">
+            <input class="removed" type="radio" id="difficulty-easy" name="difficulty" value="1200">
+            <label for="difficulty-easy">Easy</label>
+            
+            <input class="removed" type="radio" id="difficulty-normal" name="difficulty" value="700" checked>
+            <label for="difficulty-normal">Normal</label>
+            
+            <input class="removed" type="radio" id="difficulty-hard" name="difficulty" value="400">
+            <label for="difficulty-hard">Hard</label>
+          </div>
+        </div>
+
+        <div class="setting-group">
+          <h3>Duration</h3>
+          <div class="options">
+            <input class="removed" type="radio" id="duration-15" name="duration" value="15">
+            <label for="duration-15">15s</label>
+            
+            <input class="removed" type="radio" id="duration-30" name="duration" value="30" checked>
+            <label for="duration-30">30s</label>
+            
+            <input class="removed" type="radio" id="duration-60" name="duration" value="60">
+            <label for="duration-60">60s</label>
+            
+            <input class="removed" type="radio" id="duration-90" name="duration" value="90">
+            <label for="duration-90">90s</label>
+          </div>
+        </div>
+
+        <div class="setting-group">
+          <h3>Moving Targets</h3>
+          <div class="options">
+            <input class="removed" type="radio" id="moving-on" name="moving" value="true" checked>
+            <label for="moving-on">On</label>
+            
+            <input class="removed" type="radio" id="moving-off" name="moving" value="false">
+            <label for="moving-off">Off</label>
+          </div>
+        </div>
+
+        <div class="setting-group speed">
+          <h3>Speed</h3>
+          <div class="options">
+            <input class="removed" type="radio" id="speed-slow" name="speed" value="2">
+            <label for="speed-slow">Slow</label>
+            
+            <input class="removed" type="radio" id="speed-normal" name="speed" value="4" checked>
+            <label for="speed-normal">Normal</label>
+            
+            <input class="removed" type="radio" id="speed-fast" name="speed" value="6">
+            <label for="speed-fast">Fast</label>
+          </div>
+        </div>
+      </div>
+      <button class="button-start">START</button>
+      <div class="score">Your score: 0/0 (0%)</div>
+      <div class="highscores">
+        <h2>Highscores</h2>
+        <div class="highscores-list"></div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
