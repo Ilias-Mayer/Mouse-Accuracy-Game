@@ -1,28 +1,27 @@
 # Mouse Accuracy Game
 
-## Beschreibung
+## 🚀 Live-Demo  
+👉 [https://ilias-mayer.github.io/Mouse-Accuracy-Game/](https://ilias-mayer.github.io/Mouse-Accuracy-Game/)
 
+## 📝 Beschreibung
 Dieses Spiel testet deine Präzision mit der Maus. Klicke auf sich bewegende oder statische Ziele innerhalb einer bestimmten Zeit, um deine Treffsicherheit zu verbessern. Verschiedene Einstellungen ermöglichen es, die Schwierigkeit individuell anzupassen.
 
-## Landing-Page
-
+## 🌐 Landing-Page
 ![Landing Page](images/landing-page.png)
 
-## Game
-
+## 🎮 Game
 ![Game](images/game.png)
 
-## Features
+## 🌟 Features
+- 🎯 Anpassbare Zielgröße
+- 📈 Verschiedene Schwierigkeitsstufen
+- ⏱️ Einstellbare Spielzeit
+- 🏃 Bewegliche oder statische Ziele
+- ⚡ Unterschiedliche Geschwindigkeiten
+- 🎵 Soundeffekte und Hintergrundmusik
+- 📊 Score-Board
 
-- Anpassbare Zielgröße
-- Verschiedene Schwierigkeitsstufen
-- Einstellbare Spielzeit
-- Bewegliche oder statische Ziele
-- Unterschiedliche Geschwindigkeiten
-- Soundeffekte und Hintergrundmusik
-
-## Tipp: So änderst du die Bilder
-
+## 💡 Tipp: So änderst du die Bilder
 1. Gehe in den `images`-Ordner.
 2. Ersetze die vorhandenen Bilder (`x.png`, `y.png`, `z.png`) mit neuen Bildern deiner Wahl.
 3. Achte darauf, dass die neuen Bilder denselben Namen haben wie die alten.
